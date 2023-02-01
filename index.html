@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+   <form method="get" action="#">
+<p>Formulaire d'inscription : </p>
+
+<fieldset>
+    <legend>Informations Personnelles</legend>
+<p>
+  <label for="Prenom">Votre Prénom</label>
+  <input type="text" name="Prenom" id="Prenom" placeholder="EX. Warrys" size="15" maxlength="20">
+
+</p>
+
+<p>
+  <label for="Nom">Votre Nom</label>
+  <input type="text" name="Nom" id="Nom" placeholder="EX. Evoung" size="15" maxlength="20">
+
+</p>
+<p>
+  <label for="Age">Votre Âge</label>
+  <input type="number" name="Age" id="Age" min="0">
+
+</p>
+
+<p>
+Votre Sexe : <br>
+<input type="checkbox" name="F" id="F"> <label for="F">Femme</label><br>
+<input type="checkbox" name="H" id="H"> <label for="H">Homme</label><br>
+
+</p>
+</fieldset>
+<p>
+
+<label for="email">Votre Adresse Mail</label>
+<input type="email" name="email" id="email" placeholder="exemple@hotmail.com" autofocus required>
+
+</p>
+
+<p>
+<label for="Adposte">Votre Adresse Postal</label>
+<input type="text" name="Adposte" id="Adposte">
+
+</p>
+<p>
+ <label for="Codpost">Votre Code Postal</label>
+ <input type="text" name="Codpost" id="Codpost" minlength="5" maxlength="5">
+
+</p>
+<P>
+<label for="Ville">Votre Ville</label>
+<input type="text" name="Ville" id="Ville">
+
+</P>
+<p>
+<label for="Metier">Métier exercé</label>
+<input type="text" name="Metier" id="Metier">
+
+</p>
+<p>
+<label for="Nationalite">Votre Nationalité</label><br>
+ <select name="Nationalite" id="Nationalite">
+  <option value="AL">Allemand</option>
+  <option value="BR">Brésilien</option>
+  <option value="CO">Congolais</option>
+  <option value="GA">Gabonais</option>
+  <option value="FR">Français</option>
+  <option value="SR">Surinamien</option>
+  <option value="BL">Belge</option>
+  <option value="RS">Russe</option>
+ </select>
+</p>
+<p>
+    <label for="DateN">Votre Date de Naissance</label>
+    <input type="date" name="DateN" id="DateN">
+</p>
+<p>
+  <label for="PaysN">Votre Pays de Naissance</label>
+  <input type="text" name="PaysN" id="PaysN">
+</p>
+<p>
+  <label for="Nss">Votre numéro de sécurité social</label>
+  <input type="text" name="Nss" id="Nss">
+</p>
+<p>
+   <label for="NPasseport">Votre Numéro de passeport</label>
+   <input type="text" name="NPasseport" id="NPasseport">
+</p>
+<p>
+    <label for="DateDP">Date de délivrance du Passeport</label>
+    <input type="date" name="DateDP" id="DateDP">
+</p>
+<P>
+     <label for="DateVP">Date de validité du Passeport</label>
+     <input type="date" name="DateVP" id="DateVP">
+</P>
+
+<p>
+     <label for="Envoyer"></label>
+     <input type="submit" name="Envoyer" id="Envoyer">
+
+</p>
+
+</form>
+
+    
+</body>
+</html>
